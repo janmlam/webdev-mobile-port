@@ -5,6 +5,7 @@
 #### Run backend:
 
 - Backend folder run `npm start`
+- NOTE: Network needs to be on NTNU network or VPN, or else the backend wont run. I don't knwo how long we have access to the virtual machines. 
 
 #### Kjøre frontend:
 
@@ -13,6 +14,6 @@
 
 #### Open on mobile:
 
-- NOTE: Mobile needs to be the NTNU VPN, I don't know how long access we have on these, so backend may not work.
+- NOTE: Mobile needs to be on NTNU network or VPN, or else it won't connect. I don't knwo how long we have access to the virtual machines.
 - Download Expo app for android/ios, scan the QR code to open webpage.
 ---
