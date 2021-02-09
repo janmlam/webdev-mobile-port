@@ -1,0 +1,52 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  inputIOS: {
+    margin: 10,
+    alignSelf: "center",
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    paddingLeft: 10,
+    borderWidth: 1,
+    borderColor: "black",
+    borderRadius: 4,
+    color: "black",
+    paddingRight: 30,
+    backgroundColor: "white",
+    minWidth: 300,
+    width: "80%",
+    opacity: 1,
+  },
+  inputAndroid: {
+    margin: 10,
+    alignSelf: "center",
+    fontSize: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderWidth: 0.5,
+    paddingLeft: 10,
+    borderColor: "black",
+    borderRadius: 8,
+    width: 300,
+    color: "black",
+    backgroundColor: "white",
+    opacity: 1,
+    paddingRight: 30, // to ensure the text is never behind the icon
+  },
+  sliderContent: {
+    marginBottom: 20,
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  sliderTitle: { fontSize: 20 },
+  rangeTextWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    width: 280,
+  },
+});
